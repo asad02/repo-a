@@ -5,8 +5,17 @@ This repo contains all about kafka examples and hands on different kafka concept
 * Basic kafka
 * Kafka producer, consumer
 * Kafka connect
+    * read data from a source using kafka connect
+    * publish data into a kafka topic
+    * consume data from a kafka topic
 * Kafka stream
+    * read data from multiple kafka topics
+    * apply application logic
+    * publish into another kafka topic
 * twitter project
+    * read data from twitter
+    * publish twitter data into kafka
+    * consume from kafka and put into elasticsearch
 * creating a kafka cluster in aws
     * create an EC2 instances with security groups that allow port 9092 as TCP
     * ssh to EC2 instance `ssh -i Key.pem ec2-user@ec2-ip`
